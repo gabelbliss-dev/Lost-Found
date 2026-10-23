@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Lost & Found</title>
+            <link rel="stylesheet" href="style.css">    
+                <link rel="icon" type="image/x-icon" href="favicon.ico">
+                <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>  
+    <link rel="stylesheet" href="https://googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />      
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <link rel="stylesheet" href="https://fonts.google.com/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=check_box" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=adjust" />
+</head>
+<body>
+
+<header class="header">
+    
+    <nav class="navbar">
+    <a href="#"><h3>Lost & <span style="color:rgb(0, 82, 55)";>Found</span></h3></a>
+       <div class="nav-link">     
+            <!-- <a href="index.html">Home</a> -->
+            <a href="#">Browse</a>
+            <a href="#">Report</a>            
+        </div>
+
+         <div class="btn-container">
+            <button id="loginButton">Login</button>
+            <button id="SignupButton">Sign Up</button> 
+        </div>       
+    </nav>
+</header>
+
+<main class="hero-section1">
+    <div class="hero-section2">
+    <div class="P-bar">
+        <h3 class="text">Lost Something?<br><span style="color:green">Found Something?</span></h3>
+        <p class="p">Lost & Found is a simple platform to help<br>Nigeria reconnect their lost items </p>    
+        <div class="search-bar">
+            <div class="c-bar">
+                <span class="material-symbols-outlined">search</span>
+                Searched by items, names, category or location
+                </div>
+              <div class="home-btn">
+                <button id="Search">Search</button>
+                </div>            
+        </div>
+            <div class="image">
+                <img src="images/Green Handbag Icon with Tag and Accents.png" alt="green bag">
+            </div>
+        </div>
+    </div>
+</main>
+
+<section class="sections">    
+    <div class="FS">
+        <div class="little">
+         <span class="material-symbols-outlined">adjust</span>
+           Matching runs every time a new report comes in
+        </div>
+           <h1>Lost it?Let us<br> <span class="color">trace</span> it back to you.</h1>
+            <p class="report">Report what you have lost or found. We compare place, time and small details, then set up a verified handover so ther right person gets it back safely.</p>
+    </div>
+
+     <div class="SS">
+        <div class="Child-Shape">
+            <div class="GChild-Shape">
+                <a href="" class="lost">I lost Something</a>
+            </div>
+            <a href="" class="found">I found Something</a>
+        </div>
+
+        <div class="TXT">
+        <p>Tell us what is missing. We will watch new found reports for you.</p>
+        </div>
+
+    <div class="I-section">
+
+        <div class="what">
+            <p class="PTXT">What was it?</p>
+            <input type="text" placeholder="Black wallet, Tecno phone,keys">
+            <p class="PTXT">Where did you lose it?</p>
+            <input type="text" placeholder="Area, Street, Bus stop, mall">
+        </div>
+
+        <div class="cat">
+            <p class="PTXT">Category</p>
+            <input type="text" placeholder="Any category">
+            <p class="PTXT">Where did you lose it?</p>
+            <input type="text" placeholder="Today">
+        </div>
+    </div>
+
+    <div class="lastC">
+        <span class="material-symbols-outlined">
+            check_box
+        </span> 
+            <p>include nearby areas (within 2 km)</p>
+                <button id="searchF">Search found items</button>
+        </div>
+    </div>
+</section>
+    
+</body>
+</html>
