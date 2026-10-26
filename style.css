@@ -139,8 +139,7 @@ a {
 }
 
 .search-bar {
-    display: flex;
-    align-items: center;
+    display: flex;    
     gap: 12px;
     grid-column: 1;
     width: 100%;
@@ -151,9 +150,14 @@ a {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
+.holder{
+display:flex;
+align-items: center;
+}
+
 .c-bar {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     gap: 10px;
     flex: 1;
     min-width: 0;
@@ -175,9 +179,9 @@ a {
     flex-shrink: 0;
 }
 
-#Search {
+/* #Search {
     min-height: 46px;
-}
+} */
 
 .image {
     display: flex;
