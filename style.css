@@ -109,7 +109,7 @@ a {
     /* max-width: 1200px; */
     /* min-height: calc(100vh - 72px); */
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px;
     /* margin-top:80px; */
 }
 
@@ -196,8 +196,8 @@ a {
 
 .sections{
     display:flex;
-    padding: 10px;
-    gap:50px;
+    padding: 50px;
+    gap:80px;
 }
 
 .FS{
@@ -302,7 +302,7 @@ h1{
 }
 
 input{
-    width:230px;
+    width:310px;
     height: auto;
     padding:10px;
     border-radius:10px;
@@ -331,5 +331,5 @@ input{
     color:white;
     font-weight: 400;
     background-color: #5e0008;
-    margin-left: 50px;
+    margin-left: 230px;
 }
