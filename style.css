@@ -197,6 +197,7 @@ a {
 .sections{
     display:flex;
     padding: 10px;
+    gap:50px;
 }
 
 .FS{
@@ -293,7 +294,7 @@ h1{
 }
 
 input{
-    width:250px;
+    width:200px;
     height: auto;
     padding:10px;
     border-radius:10px;
